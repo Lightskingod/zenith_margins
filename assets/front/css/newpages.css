@@ -1,0 +1,84 @@
+.invest-type .irs-single,
+.invest-type .irs-bar-edge,
+.invest-type .irs-line-right,
+.invest-type .irs-line-left {
+	display: none;
+}
+.invest-type .irs-line-mid,
+.invest-type .irs-line,
+.invest-type .irs-bar {
+	background: #dbe5e7;
+	border: none;
+	height: 5px;
+}
+.invest-type .irs-bar  {
+	background-color: #347c9d;
+}
+
+.invest-type .irs-slider{
+	width: 15px;
+	height: 15px;
+	background-color: #347c9d;
+	box-shadow: none;
+	top: 20px;
+	cursor: pointer;
+	transition: 0.3s transform ease;
+}
+
+
+.tab-inv .irs-single,
+.tab-inv .irs-bar-edge,
+.tab-inv .irs-line-right,
+.tab-inv .irs-line-left {
+	display: none;
+}
+.tab-inv .irs-line-mid,
+.tab-inv .irs-line,
+.tab-inv .irs-bar {
+	border: none;
+	height: 6px;
+	border-radius: 2px;
+	background-color: #1e68a2;
+}
+.tab-inv .irs-bar  {
+	background-color: #fff;
+}
+
+.tab-inv .irs-slider{
+	width: 18px;
+	height: 18px;
+	box-shadow: 0 0 4px rgba(30, 104, 162, 0.33);
+	background-color: #ffffff;
+	cursor: pointer;
+	transition: 0.3s transform ease;
+	border: none;
+	top: 18px;
+	transform: translateX(-1px);
+}
+.tab-inv .irs-slider:hover {
+	transform: scale(1.2);
+}
+
+
+.invest-type__calc {
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	margin: 39px 0 30px;
+}
+.tab-inv .invest-type__calc {
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 13px;
+	font-weight: 400;
+	margin: 30px 0 5px;
+}
+.invest-type__calc b {
+	display: block;
+	font-family: 'Bree Serif', serif;
+	font-size: 24px;
+	font-weight: 500;
+}
+.invest-type__calc--total {
+	text-align: right;
+}

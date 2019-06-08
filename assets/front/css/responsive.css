@@ -1,0 +1,128 @@
+
+/* Medium Layout: 1200px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    #client .owl-carousel a {
+        width: 148px;
+    }
+    .footer-text p {
+        margin-top: 30px;
+    }
+}
+
+/* Tablet Layout wide: 768px. */
+
+@media only screen and (max-width: 767px) {
+
+    .footer-text p {
+        margin-top: 30px;
+    }
+}
+
+
+/* medium tablet layout 599px */
+
+@media only screen and (max-width: 599px) {
+
+    .sub-page .page-header {
+        padding: 60px 20px;
+    }
+    .footer-text p {
+        margin-top: 30px;
+    }
+
+    .choose-us-icon {
+        font-size: 130px;
+        padding: 30px 0px  20px 65px ;
+    }
+}
+
+@media only screen and (min-width:426px) and (max-width: 450px){
+    .choose-us-icon {
+        font-size: 100px;
+        padding: 30px 0px  20px 65px ;
+    }
+
+}
+/* mobile tablet layout 425px */
+
+@media only screen and (max-width: 425px) {
+
+    .title h2{
+        font-size: 20px;
+    }
+    .sub-page .page-header {
+        padding: 60px 20px;
+    }
+    .footer-text p {
+        margin-top: 30px;
+    }
+    #footer .footer-bottom .links li {
+        float: none !important;
+        text-align: center;
+        padding: 5px 0px;
+        margin-left: 20px;
+        text-transform: capitalize;
+    }
+
+    .choose-us-icon {
+        font-size: 100px;
+        padding: 55px;
+    }
+
+
+}
+
+/* mobile tablet layout 375px */
+
+@media only screen and (max-width: 375px) {
+    .title h2{
+        font-size: 18px;
+    }
+    .sub-page .page-header {
+        padding: 60px 20px;
+    }
+    .footer-text p {
+        margin-top: 30px;
+    }
+    #footer .footer-bottom .links li {
+        float: none !important;
+        text-align: center;
+        padding: 5px 0px;
+        margin-left: 20px;
+        text-transform: capitalize;
+    }
+
+}
+
+/* mobile tablet layout 320px */
+
+@media only screen and (max-width: 320px) {
+    .title h2{
+        font-size: 16px;
+    }
+    .footer-text p {
+        margin-top: 30px;
+    }
+
+    #footer .footer-bottom .links li {
+        float: none !important;
+        text-align: center;
+        padding: 5px 0px;
+        margin-left: 20px;
+        text-transform: capitalize;
+    }
+
+    .choose-us-icon {
+        font-size: 100px;
+        padding: 50px;
+    }
+}
